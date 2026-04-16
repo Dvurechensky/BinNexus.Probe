@@ -1,0 +1,93 @@
+{
+  "network": {
+    "title": "Network",
+    "description": "Network communication APIs",
+    "tags": [
+      "socket",
+      "http",
+      "wininet"
+    ],
+    "apis": [
+      "send",
+      "recv",
+      "connect",
+      "WSASend",
+      "WSARecv",
+      "HttpSendRequest",
+      "WinHttpSendRequest",
+      "InternetReadFile",
+      "InternetWriteFile"
+    ]
+  },
+  "files": {
+    "title": "File System",
+    "description": "File read/write operations",
+    "tags": [
+      "fs",
+      "io"
+    ],
+    "apis": [
+      "CreateFile",
+      "ReadFile",
+      "WriteFile",
+      "SetFilePointer",
+      "DeleteFile"
+    ]
+  },
+  "debug": {
+    "title": "Anti-Debug",
+    "description": "Debugger detection",
+    "tags": [
+      "antidebug"
+    ],
+    "apis": [
+      "IsDebuggerPresent",
+      "CheckRemoteDebuggerPresent",
+      "OutputDebugString"
+    ]
+  },
+  "memory": {
+    "title": "Memory",
+    "apis": [
+      "VirtualAlloc",
+      "VirtualFree",
+      "VirtualProtect",
+      "ReadProcessMemory",
+      "WriteProcessMemory"
+    ]
+  },
+  "process": {
+    "title": "Process Injection",
+    "apis": [
+      "OpenProcess",
+      "CreateRemoteThread",
+      "NtCreateThreadEx",
+      "QueueUserAPC"
+    ]
+  },
+  "registry": {
+    "title": "Registry",
+    "apis": [
+      "RegOpenKey",
+      "RegSetValue",
+      "RegQueryValue"
+    ]
+  },
+  "crypto": {
+    "title": "Crypto",
+    "apis": [
+      "CryptEncrypt",
+      "CryptDecrypt",
+      "BCryptEncrypt",
+      "BCryptDecrypt"
+    ]
+  },
+  "loader": {
+    "title": "DLL / Loader",
+    "apis": [
+      "LoadLibrary",
+      "GetProcAddress",
+      "LdrLoadDll"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+numpy
+pefile
+fastapi
+pydantic
+python-multipart
+jinja2
+uvicorn
